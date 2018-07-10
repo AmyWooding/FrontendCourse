@@ -1,0 +1,36 @@
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list ul {
+  border: 5px;
+  border-color: #000;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+#MainSection {
+	height: 1000px;
+	background-color: orange;
+	color: #000;
+	padding: 10px;
+}
+@media (max-width: 767px){
+	#MainSection {
+		margin: 15px;
+	}
+}
