@@ -25,12 +25,13 @@
 
 #MainSection {
 	height: 1000px;
+  width: 100%;
 	background-color: orange;
 	color: #000;
-	padding: 10px;
+	/*padding: 10px;*/
 }
-@media (max-width: 767px){
+/*@media (max-width: 767px){
 	#MainSection {
 		margin: 15px;
 	}
-}
+}*/
